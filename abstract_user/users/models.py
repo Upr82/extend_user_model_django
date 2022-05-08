@@ -6,4 +6,5 @@ class User(AbstractUser):
     bio = models.TextField(
         'Биография',
         blank=True,
+        null=True
     )
